@@ -1,0 +1,5 @@
+Defects on PCB Rev A board
+
+Status 	Severity Layer		Description
+___________________________________________
+	High	Schematic	The LCD power switch circuit is wrong in that PA3 will have a pull-up resistor after reset.  I added a quick workaround of a 2.2uF cap and a 10k resistor in parallel between base and emitter of Q5.

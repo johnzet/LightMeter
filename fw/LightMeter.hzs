@@ -1,0 +1,63 @@
+<!DOCTYPE CrossStudio_for_ARM_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints/>
+ <ExecutionProfileWindow/>
+ <Memory1>
+  <MemoryWindow autoEvaluate="1" addressText="0xFFFFF63C" numColumns="4" sizeText="4" dataSize="4" radix="2" name="" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="" addressSpace="" />
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="LightMeter" name="unnamed" />
+  <ProjectSessionItem path="LightMeter;LightMeter" name="unnamed" />
+  <ProjectSessionItem path="LightMeter;LightMeter;Source Files" name="unnamed" />
+ </Project>
+ <Register1>
+  <RegisterWindow openNodes="CPU - Current Mode;CPU - Current Mode/cpsr" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - All;CPU - Current Mode" decimalNodes="" octalNodes="" asciiNodes="" name="" />
+ </Register1>
+ <Register2>
+  <RegisterWindow openNodes="CPU - Current Mode" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - All;CPU - Current Mode" decimalNodes="" octalNodes="" asciiNodes="" name="" />
+ </Register2>
+ <Register3>
+  <RegisterWindow openNodes="CPU - Current Mode" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - All;CPU - Current Mode" decimalNodes="" octalNodes="" asciiNodes="" name="" />
+ </Register3>
+ <Register4>
+  <RegisterWindow openNodes="CPU - Current Mode" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - All;CPU - Current Mode" decimalNodes="" octalNodes="" asciiNodes="" name="" />
+ </Register4>
+ <TargetWindow programAction="" uploadFileType="" programLoadAddress="" programSize="" uploadFileName="" uploadMemoryInterface="" programFileName="" uploadStartAddress="" programFileType="" uploadSize="" programMemoryInterface="" />
+ <TraceWindow>
+  <Trace enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Each Second" >
+   <Watchpoint linenumber="67" radix="2" name="pdsr" expression="pdsr" filename="c:/projects/light_meter/fw/src/main.c" />
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="7" debugPath="C:\projects\light-meter\fw\src\main.c" y="122" path="C:\projects\light-meter\fw\src\main.c" left="0" selected="0" name="unnamed" top="156" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\projects\light-meter\fw\src\sampleAndCalc.c" y="62" path="C:\projects\light-meter\fw\src\sampleAndCalc.c" left="0" selected="0" name="unnamed" top="12" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\projects\light-meter\fw\include\main.h" y="8" path="C:\projects\light-meter\fw\include\main.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\projects\light-meter\fw\src\renderer.c" y="104" path="C:\projects\light-meter\fw\src\renderer.c" left="0" selected="0" name="unnamed" top="54" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\projects\light-meter\fw\src\grapher.c" y="106" path="C:\projects\light-meter\fw\src\grapher.c" left="0" selected="0" name="unnamed" top="69" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\projects\light-meter\fw\src\crossworks.c" y="0" path="C:\projects\light-meter\fw\src\crossworks.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\projects\light-meter\fw\at91lib\peripherals\usart\usart.c" y="0" path="C:\projects\light-meter\fw\at91lib\peripherals\usart\usart.c" left="0" selected="0" name="unnamed" top="96" />
+ </Files>
+ <ARMCrossStudioWindow activeProject="LightMeter" autoConnectTarget="Olimex ARM-USB-OCD" debugSearchFileMap="" fileDialogInitialDirectory="C:\projects\light_meter\fw\src" fileDialogDefaultFilter="*.c" autoConnectCapabilities="388479" debugSearchPath="" buildConfiguration="ARM Flash Debug" />
+</session>

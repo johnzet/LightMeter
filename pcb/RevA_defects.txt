@@ -1,0 +1,17 @@
+Defects on PCB Rev A board
+
+Status 	Severity Layer		Description
+___________________________________________
+Fixed	High	Schematic	Connect BAT to ADC pin 5 through a transistor connected to a pin
+Fixed	High	Schematic	ADVREF supply needs a low-pass filter to filter-out boost converter ripple.  I used a 1.5k resistor and a 2.2uF capacitor to supply the ADVREF pin from the 3.3V supply.
+
+Fixed	Medium	Schematic	Add a backlight power switch connected to a GPIO pin
+
+Fixed	Low	Silk		Font small for my name  
+Fixed	Low	Silk		IC pin 1 not labeled
+Fixed	Low	S+copper	"Top" and "Bot"	should be in copper		
+Fixed	Low	Silk		Dividing line in wrong spot - Plus - come up with an easier board separation (routing???)
+Fixed	Low	Hole		Most test point holes are too big
+Defer	Low	Part		Reset button hard to press
+
+Fixed	Low	Schematic	I added a 100uF capacitor across the battery.  It may not be necessary, but the 3.3V boost converter is a noisy load.
